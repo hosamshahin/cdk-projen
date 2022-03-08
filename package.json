@@ -115,8 +115,8 @@
     "outdir": "dist",
     "targets": {
       "python": {
-        "distName": "cdl-projen",
-        "module": "cdl-projen"
+        "distName": "cdk-projen",
+        "module": "cdk-projen"
       }
     },
     "tsc": {

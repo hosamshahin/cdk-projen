@@ -27,9 +27,9 @@ const project = new awscdk.AwsCdkConstructLibrary({
   },
   releaseWorkflow: true,
   publishToPypi: {
-    distName: 'cdl-projen',
-    module: 'cdl-projen',
-  }
+    distName: 'cdk-projen',
+    module: 'cdk-projen',
+  },
 
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
