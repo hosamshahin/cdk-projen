@@ -8,7 +8,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   authorAddress: 'hosamlshahin@gmail.com',
   jsiiFqn: 'projen.AwsCdkConstructLibrary',
 
-  cdkVersion: '2.1.0',
+  cdkVersion: '2.14.0',
   defaultReleaseBranch: 'main',
   githubOptions: {
     mergify: true,
