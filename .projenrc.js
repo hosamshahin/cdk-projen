@@ -19,15 +19,17 @@ const project = new awscdk.AwsCdkConstructLibrary({
   docgen: true,
   eslint: true,
 
-
   dependabot: true,
   dependabotOptions: {
     autoMerge: true,
     ignoreProjen: true,
     scheduleInterval: DependabotScheduleInterval.WEEKLY,
   },
-
   releaseWorkflow: true,
+  publishToPypi: {
+    distName: 'cdl-projen',
+    module: 'cdl-projen',
+  }
 
   // deps: [],                /* Runtime dependencies of this module. */
   // description: undefined,  /* The description is just a string that helps people understand the purpose of the package. */
