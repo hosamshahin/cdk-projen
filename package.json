@@ -2,7 +2,7 @@
   "name": "cdk-projen",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hosamlshahin/cdk-projen.git"
+    "url": "https://github.com/hosamshahin/cdk-projen.git"
   },
   "scripts": {
     "build": "npx projen build",
@@ -25,7 +25,6 @@
     "test:update": "npx projen test:update",
     "test:watch": "npx projen test:watch",
     "unbump": "npx projen unbump",
-    "upgrade": "npx projen upgrade",
     "upgrade-projen": "npx projen upgrade-projen",
     "watch": "npx projen watch",
     "projen": "npx projen"
@@ -42,6 +41,7 @@
     "@typescript-eslint/parser": "^5",
     "aws-cdk-lib": "2.1.0",
     "constructs": "10.0.5",
+    "esbuild": "^0.14.25",
     "eslint": "^8",
     "eslint-import-resolver-node": "^0.3.6",
     "eslint-import-resolver-typescript": "^2.5.0",
